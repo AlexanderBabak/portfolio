@@ -33,7 +33,15 @@ function Blog() {
                   rel="noreferrer"
                   className="blog project__btn btn"
                 >
-                  Смотреть
+                  GIT
+                </a>
+                <a
+                  href="https://staff-pro.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="blog project__btn btn"
+                >
+                  WEB
                 </a>
               </div>
             </div>
@@ -56,7 +64,15 @@ function Blog() {
                   rel="noreferrer"
                   className="blog project__btn btn"
                 >
-                  Смотреть
+                  GIT
+                </a>
+                <a
+                  href="http://react-basketball.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="blog project__btn btn"
+                >
+                  WEB
                 </a>
               </div>
             </div>
@@ -74,12 +90,20 @@ function Blog() {
                 <h5 className="project__text">Вёрстка</h5>
                 <h4 className="project__text">Landing Bike</h4>
                 <a
+                  href="https://github.com/bbkshow/landing-bike"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="blog project__btn btn"
+                >
+                  GIT
+                </a>
+                <a
                   href="https://landing-bike.vercel.app"
                   target="_blank"
                   rel="noreferrer"
                   className="blog project__btn btn"
                 >
-                  Смотреть
+                  WEB
                 </a>
               </div>
             </div>
