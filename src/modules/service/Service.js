@@ -1,5 +1,5 @@
-import React from 'react';
-import './Service.css';
+import React from "react";
+import "./Service.css";
 
 function Service() {
   return (
@@ -9,7 +9,7 @@ function Service() {
         <p className="heading p__color">
           Разработка сайтов, мобильных приложений
         </p>
-        <p className="heading p__color">и ВЭБ-сервисов для ваших задач</p>
+        <p className="heading p__color">и платформ для ваших задач</p>
       </div>
 
       <div className="container">
@@ -18,7 +18,7 @@ function Service() {
             <div
               className="service__box pointer"
               onClick={() => {
-                console.log('Click modal');
+                console.log("Click modal");
               }}
             >
               <div className="icon">
@@ -70,8 +70,8 @@ function Service() {
               <div className="service__meta">
                 <h1 className="service__text">Мобильные приложения</h1>
                 <p className="p service__text p__color">
-                  Мы разрабатываем, обеспечиваем техническую поддержку и
-                  развиваем мобильные приложения.
+                  В планах разрабатка, обеспечение технической поддержки и
+                  развитие мобильных приложений.
                 </p>
               </div>
             </div>
@@ -98,10 +98,10 @@ function Service() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">ВЭБ-сервисы</h1>
+                <h1 className="service__text">Поддержка</h1>
                 <p className="p service__text p__color">
-                  Ваш вэб-сервис будет интересным и полезным, у нас большой опыт
-                  разработки в этом направлении.
+                  Доработка функционала, улучшение производительности и
+                  адаптация под мобильные приложения.
                 </p>
               </div>
             </div>

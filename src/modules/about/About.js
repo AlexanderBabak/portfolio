@@ -21,7 +21,7 @@ function About() {
               <p className="about__text p__color">
                 В 2018 году я написал свой первый Hello world! Именно тогда у
                 меня родилась идея стать Front-end разработчиком. Решение было
-                спонтанным. На тот мне был 31 год, и я уже 12 лет работал
+                спонтанным. На тот момент мне был 31 год, и я уже 12 лет работал
                 журналистом. Телевидение, должность руководителя пресс-службы
                 футбольного клуба, потом снова телевидение, радио и постоянная
                 работа в кадре. Можно сказать, в своей профессии я попробовал
@@ -85,7 +85,7 @@ function About() {
                   download=""
                   target="_blank"
                   rel="noreferrer"
-                  href="https://disk.yandex.ru/i/QHlvKl6PUqwpyg"
+                  href="https://disk.yandex.ru/i/MJeewEMZEd4LBA"
                 >
                   <button className="about btn pointer">Скачать CV</button>
                 </a>
