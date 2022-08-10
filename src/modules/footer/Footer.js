@@ -2,6 +2,7 @@ import React from "react";
 import { ReactComponent as FacebookIcon } from "../../img/facebook-svgrepo-com.svg";
 import { ReactComponent as InstagramIcon } from "../../img/instagram-svgrepo-com.svg";
 import { ReactComponent as GitHub } from "../../img/github-svgrepo-com.svg";
+import { ReactComponent as Telegram } from "../../img/telegram-svgrepo-com.svg";
 
 function Footer() {
   return (
@@ -29,9 +30,17 @@ function Footer() {
         href="https://github.com/bbkshow"
         target="_blank"
         rel="noreferrer"
-        style={{ cursor: "pointer" }}
+        style={{ cursor: "pointer", marginRight: 10 }}
       >
         <GitHub />
+      </a>
+      <a
+        href="https://t.me/bbkshow"
+        target="_blank"
+        rel="noreferrer"
+        style={{ cursor: "pointer", marginRight: 10 }}
+      >
+        <Telegram />
       </a>
     </div>
   );
