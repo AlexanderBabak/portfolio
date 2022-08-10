@@ -1,17 +1,38 @@
 import React from "react";
+import { ReactComponent as FacebookIcon } from "../../img/facebook-svgrepo-com.svg";
+import { ReactComponent as InstagramIcon } from "../../img/instagram-svgrepo-com.svg";
+import { ReactComponent as GitHub } from "../../img/github-svgrepo-com.svg";
 
 function Footer() {
   return (
     <div
-      className="footer d__flex align__items__center justify__content__space__between pz-10"
+      className="footer d__flex align__items__center justify__content__center pz-10"
       style={{ padding: "20px 20px", zIndex: "100" }}
     >
-      <span
-        className="copyright"
-        style={{ color: "#c6c9d8", fontSize: "14px", opacity: "0.75" }}
+      <a
+        href="https://www.facebook.com/alexander.babak.7"
+        target="_blank"
+        rel="noreferrer"
+        style={{ cursor: "pointer", marginRight: 10 }}
       >
-        Copyright © 2022 programmer Alexander Babak. All Rights Reserved
-      </span>
+        <FacebookIcon />
+      </a>
+      <a
+        href="https://www.instagram.com/bbkshow1/"
+        target="_blank"
+        rel="noreferrer"
+        style={{ cursor: "pointer", marginRight: 10 }}
+      >
+        <InstagramIcon />
+      </a>
+      <a
+        href="https://github.com/bbkshow"
+        target="_blank"
+        rel="noreferrer"
+        style={{ cursor: "pointer" }}
+      >
+        <GitHub />
+      </a>
     </div>
   );
 }
