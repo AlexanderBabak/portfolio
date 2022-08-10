@@ -1,6 +1,3 @@
-/* .contact {
-  background-color: #191919;
-} */
 h1.hire__text {
   font-size: 60px;
 }
@@ -54,6 +51,48 @@ textarea#message {
 }
 button.btn.contact.pointer {
   margin: 20px 0px;
+}
+
+button.btn.contact.pointer:active {
+  background: white;
+  color: red;
+  transition: all 0.1s ease-in-out;
+}
+
+.input__box {
+  position: relative;
+}
+
+.warning1 {
+  color: red;
+  position: absolute;
+  top: 53px;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.warning2 {
+  color: red;
+  position: absolute;
+  top: 123px;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.warning3 {
+  color: red;
+  position: absolute;
+  top: 194px;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.warning4 {
+  color: red;
+  position: absolute;
+  top: 333px;
+  font-size: 12px;
+  margin-left: 20px;
 }
 
 @media only screen and (max-width: 425px) {
