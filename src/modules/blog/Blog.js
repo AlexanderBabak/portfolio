@@ -36,7 +36,7 @@ function Blog() {
                   GIT
                 </a>
                 <a
-                  href="https://staff-pro.vercel.app/"
+                  href="https://staffpro.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="blog project__btn btn"
