@@ -85,7 +85,7 @@ function About() {
                   download=""
                   target="_blank"
                   rel="noreferrer"
-                  href="https://disk.yandex.ru/i/MJeewEMZEd4LBA"
+                  href="https://disk.yandex.ru/i/YxuFuxQ56h2ZBQ"
                 >
                   <button className="about btn pointer">Скачать CV</button>
                 </a>
