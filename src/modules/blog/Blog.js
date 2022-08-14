@@ -1,18 +1,21 @@
 import React from "react";
 import "./Blog.css";
+import { useTranslation } from "react-i18next";
+import "../../utils/i18next";
+
 import Blog1 from "../../img/blog-01.jpg";
 import Blog2 from "../../img/blog-02.jpg";
 import Blog3 from "../../img/blog-03.jpg";
 
 function Blog() {
+  const { t } = useTranslation();
+
   return (
     <div className="blog component__space" id="blog">
       <div className="heading">
-        <h1 className="heading">Мои работы</h1>
-        <p className="heading p__color">Эти проекты выполнены на React.js</p>
-        <p className="heading p__color">
-          с подключением Ant Design и Material-UI
-        </p>
+        <h1 className="heading">{t("portfolio.tittle")}</h1>
+        <p className="heading p__color">{t("portfolio.description_1")}</p>
+        <p className="heading p__color">{t("portfolio.description_2")}</p>
       </div>
       <div className="container">
         <div className="row">
@@ -25,7 +28,7 @@ function Blog() {
                 <div className="mask__effect"></div>
               </div>
               <div className="Blog__meta absolute">
-                <h5 className="project__text">Front-end разработка</h5>
+                <h5 className="project__text">{t("portfolio.info")}</h5>
                 <h4 className="project__text">Staff Pro</h4>
                 <a
                   href="https://github.com/bbkshow/project-staff"
@@ -56,7 +59,7 @@ function Blog() {
                 <div className="mask__effect"></div>
               </div>
               <div className="Blog__meta absolute">
-                <h5 className="project__text">Front-end разработка</h5>
+                <h5 className="project__text">{t("portfolio.info")}</h5>
                 <h4 className="project__text">Basketball BIG3</h4>
                 <a
                   href="https://github.com/bbkshow/babak-basketball-main"
@@ -87,7 +90,7 @@ function Blog() {
                 <div className="mask__effect"></div>
               </div>
               <div className="Blog__meta absolute">
-                <h5 className="project__text">Вёрстка</h5>
+                <h5 className="project__text">{t("portfolio.info_2")}</h5>
                 <h4 className="project__text">Landing Bike</h4>
                 <a
                   href="https://github.com/bbkshow/landing-bike"

@@ -4,10 +4,14 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import contactImg from "../../img/about-9.jpg";
 import { useForm } from "react-hook-form";
+import { useTranslation } from "react-i18next";
+import "../../utils/i18next";
 
 function Contact() {
   const [done, setDone] = useState(false);
   const formRef = useRef();
+
+  const { t } = useTranslation();
 
   const {
     handleSubmit,
@@ -44,10 +48,11 @@ function Contact() {
         <div className="col__2">
           <div className="contact__box">
             <div className="contact__meta">
-              <h1 className="hire__text">Заказать проект</h1>
-              <p className="hire__text white">Свяжитесь со мной по телефону:</p>
+              <h1 className="hire__text">{t("contact.tittle")}</h1>
+              <p className="hire__text white">{t("contact.connectMe")}</p>
               <p className="hire__text white">
-                <strong>+373 779 47179</strong> или по email{" "}
+                <strong>{t("contact.tel")}</strong>
+                {t("contact.orEmail")}
                 <strong>bbkshow1987@gmail.com</strong>
               </p>
             </div>
@@ -58,18 +63,18 @@ function Contact() {
             >
               <input
                 className="contact name"
-                placeholder="Ваше имя"
+                placeholder={t("contact.inputName")}
                 {...register("user_name", {
                   required: "Name is required",
                   minLength: 2,
                 })}
               />
               {errors.user_name && (
-                <p className="warning1">Введите имя длиной от 2-х символов</p>
+                <p className="warning1">{t("contact.inputNameError")}</p>
               )}
               <input
                 className="contact email"
-                placeholder="Ваш Email"
+                placeholder={t("contact.inputEmail")}
                 type="text"
                 {...register("user_email", {
                   required: "Email is required",
@@ -78,11 +83,11 @@ function Contact() {
                 })}
               />
               {errors.user_email && (
-                <p className="warning2">Введите корректный email</p>
+                <p className="warning2">{t("contact.inputEmailError")}</p>
               )}
               <input
                 className="contact subject"
-                placeholder="Тема письма"
+                placeholder={t("contact.inputSubject")}
                 {...register("user_subject", {
                   required: "Name is required",
                   min: 2,
@@ -90,9 +95,7 @@ function Contact() {
                 })}
               />
               {errors.user_subject && (
-                <p className="warning3">
-                  Введите тему от 2-х до 20-ти символов
-                </p>
+                <p className="warning3">{t("contact.inputSubjectError")}</p>
               )}
               <textarea
                 name="message"
@@ -102,18 +105,18 @@ function Contact() {
                   min: 1,
                   max: 100,
                 })}
-                placeholder="Напишите ваше сообщение"
+                placeholder={t("contact.inputTextarea")}
                 style={{ fontFamily: "sans-serif", resize: "none" }}
               ></textarea>
               {errors.message && (
-                <p className="warning4">Введите сообщение до 100 символов</p>
+                <p className="warning4">{t("contact.inputTextareaError")}</p>
               )}
 
               <button className="btn contact pointer" type="submit">
-                Отправить
+                {t("contact.submit")}
               </button>
               {done && (
-                <p style={{ color: "white" }}>Ваше сообщение отправлено...</p>
+                <p style={{ color: "white" }}>{t("contact.messageSent")}</p>
               )}
             </form>
           </div>

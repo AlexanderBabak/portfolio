@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+
+  "home": {
+    "welcome": "WELCOME TO MY WORLD!",
+    "name": "Alexander Babak",
+    "develop": "JS/React Developer"
+  },
+
+  "about": {
+    "tittle": "About",
+    "text1": "In 2008 I wrote my first Hello World! I was the head of the press service of the FC 'Sheriff Tiraspol' (the same one that beat in 2021 'Real Madrid' at the Santiago Bernabeu).  I was also responsible for the work of the club website. There I first tried myself as a developer and content manager. In 2018, when the need for IT specialists began to grow, and training became very high, I had the idea to become a front-end developer. The decision was spontaneous. I was 31 at the time and had been a journalist for 12 years. Television, radio, writing press. You can, in my profession I experience everything. And I took on a new challenge.",
+    "text2": "After reading stories about how 30-year-olds become programmers, I realized that I could do it too. As a result, over the course of several years, combining my studies with my main job, I passed:",
+    "text2_p1": "- courses of the school SkillUp Kyiv ",
+    "text2_p2": "'HTML/CSS Basics'",
+    "text2_p3": "and ",
+    "text2_p4": "'JavaScript/React'",
+    "text2_p5": "- course ",
+    "text2_p6": "'Landing from 0 to 1'",
+    "text2_p7": "- course ",
+    "text2_p8": "'Redux for state management'",
+    "text2_p9": "- practice and 2 projects at ",
+    "text2_p10": "DEX iT company",
+    "text3": "Now I already have several completed projects and experience of working in a team. Web development has evolved from a hobby into something more. I think it's still ahead. There is only one conclusion - if you want to become a programmer, you will become one. Whether it is difficult, everyone decides for himself."
+  },
+
+  "buttons": {
+    "cv": "Download CV",
+    "contact": "Contact"
+  },
+
+  "portfolio": {
+    "tittle": "Portfolio",
+    "description_1": "These projects are made with React.js,",
+    "description_2": "Ant Design and Material-UI",
+    "info": "Front-end",
+    "info_2": "HTML/CSS"
+  },
+
+  "services": {
+    "tittle": "Services",
+    "servicesInfo": "Development of websites, mobile applications",
+    "servicesInfo2": "and platforms for your tasks",
+    "websites": "Websites",
+    "websitesInfo": "You will receive a full range of website development services for your business.",
+    "mobileApp": "Mobile app",
+    "mobileAppInfo": "There are plans to improve, technical support and develop mobile applications.",
+    "support": "Support",
+    "supportInfo": "Improvement of functionality, performance improvement and adaptation to mobile applications."
+  },
+
+  "contact": {
+    "tittle": "Questions?",
+    "connectMe": "Contact me by phone:",
+    "tel": "+373 779 47179",
+    "orEmail": " or email ",
+    "inputName": "Name",
+    "inputEmail": "Email",
+    "inputSubject": "Subject",
+    "inputTextarea": "Your message",
+    "messageSent": "Your message has been sent...",
+    "submit": "Submit",
+    "inputNameError": "Name is empty.",
+    "inputEmailError": "Email is empty or invalid.",
+    "inputSubjectError": "Subject is empty.",
+    "inputTextareaError": "Message is empty."
+  }
+}

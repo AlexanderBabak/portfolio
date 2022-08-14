@@ -5,17 +5,20 @@ import Blog from "./modules/blog/Blog";
 import Contact from "./modules/contact/Contact";
 import Footer from "./modules/footer/Footer";
 import Service from "./modules/service/Service";
+import { Suspense } from "react";
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <About />
-      <Blog />
-      <Service />
-      <Contact />
-      <Footer />
-    </div>
+    <Suspense fallback="">
+      <div className="App">
+        <Home />
+        <About />
+        <Blog />
+        <Service />
+        <Contact />
+        <Footer />
+      </div>
+    </Suspense>
   );
 }
 

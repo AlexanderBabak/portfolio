@@ -1,8 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+import "../../utils/i18next";
 import "./About.css";
 import aboutImg from "../../img/about.jpg";
 
 function About() {
+  const { t } = useTranslation();
+
   //  Up To Top Btn
   window.addEventListener("scroll", function () {
     const upToTop = document.querySelector("a.bottom__to__top");
@@ -16,82 +20,70 @@ function About() {
             <img src={aboutImg} alt="" className="about__img" />
           </div>
           <div className="col__2">
-            <h1 className="about__heading">Обо мне</h1>
+            <h1 className="about__heading">{t("about.tittle")}</h1>
             <div className="about__meta">
+              <p className="about__text p__color">{t("about.text1")}</p>
+              <p className="about__text p__color">{t("about.text2")}</p>
               <p className="about__text p__color">
-                В 2018 году я написал свой первый Hello world! Именно тогда у
-                меня родилась идея стать Front-end разработчиком. Решение было
-                спонтанным. На тот момент мне был 31 год, и я уже 12 лет работал
-                журналистом. Телевидение, должность руководителя пресс-службы
-                футбольного клуба, потом снова телевидение, радио и постоянная
-                работа в кадре. Можно сказать, в своей профессии я попробовал
-                всё. И решился на новый вызов.
-              </p>
-              <p className="about__text p__color">
-                Начитавшись историй про то, как 30-летние становятся
-                программистами, понял, что у меня тоже получится. В итоге, в
-                течение нескольких лет, совмещая учёбу с основной работой, я
-                прошёл:
-              </p>
-              <p className="about__text p__color">
-                - курсы киевской школы SkillUp{" "}
+                {t("about.text2_p1")}
                 <a
                   href="https://skillup.ua/lp/uiux-online/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  "Основы HTML/CSS"
+                  {t("about.text2_p2")}
                 </a>{" "}
-                и{" "}
+                {t("about.text2_p3")}
                 <a
                   href="https://skillup.ua/lp/frontend-online/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  "JavaScript/React"
+                  {t("about.text2_p4")}
                 </a>{" "}
-                <br />- курс{" "}
+                <br />
+                {t("about.text2_p5")}
                 <a
                   href="https://from0to1.com.ua/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  "Вёрстка сайтов от 0 до 1"
+                  {t("about.text2_p6")}
                 </a>{" "}
-                <br />- курс{" "}
+                <br />
+                {t("about.text2_p7")}
                 <a
                   href="https://stepik.org/course/113714/promo"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  "Redux для управления состоянием"
+                  {t("about.text2_p8")}
                 </a>{" "}
-                <br />- практику и 2 проекта в компании{" "}
+                <br />
+                {t("about.text2_p9")}
                 <a href="https://dex-it.ru/" target="_blank" rel="noreferrer">
-                  DEX
+                  {t("about.text2_p10")}
                 </a>
                 .
               </p>
-              <p className="about__text p__color">
-                На сегодняшний день у меня уже есть несколько реализованных
-                проектов и опыт работы в команде. Вэб-разработка из хобби
-                переросла в нечто большее. Думаю, всё ещё впереди. Вывод один –
-                если хотите стать программистом, вы им станете. Трудно ли это,
-                каждый решает сам.
-              </p>
+              <p className="about__text p__color">{t("about.text3")}</p>
               <div className="about__button d__flex align__items__center">
                 <a
                   className="button button--flex"
                   download=""
                   target="_blank"
                   rel="noreferrer"
-                  href="https://disk.yandex.ru/i/YxuFuxQ56h2ZBQ"
+                  href="https://drive.google.com/file/d/1358Wxj-RUv8GAkhDMGa2_Wc0KVRUIQBY/view"
                 >
-                  <button className="about btn pointer">Скачать CV</button>
+                  <button className="about btn pointer">
+                    {t("buttons.cv")}
+                  </button>
                 </a>
 
                 <a href="#contact">
-                  <button className="about btn pointer">Связаться</button>
+                  <button className="about btn pointer">
+                    {t("buttons.contact")}
+                  </button>
                 </a>
               </div>
             </div>

@@ -1,15 +1,18 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+import "../../utils/i18next";
+
 import "./Service.css";
 
 function Service() {
+  const { t } = useTranslation();
+
   return (
     <div className="service component__space" id="services">
       <div className="heading">
-        <h1 className="heading">Услуги</h1>
-        <p className="heading p__color">
-          Разработка сайтов, мобильных приложений
-        </p>
-        <p className="heading p__color">и платформ для ваших задач</p>
+        <h1 className="heading">{t("services.tittle")}</h1>
+        <p className="heading p__color">{t("services.servicesInfo")}</p>
+        <p className="heading p__color">{t("services.servicesInfo2")}</p>
       </div>
 
       <div className="container">
@@ -39,10 +42,9 @@ function Service() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">Сайты</h1>
+                <h1 className="service__text">{t("services.websites")}</h1>
                 <p className="p service__text p__color">
-                  Вы получите весь спектр услуг по разработке сайта для вашего
-                  бизнеса.
+                  {t("services.websitesInfo")}
                 </p>
               </div>
             </div>
@@ -68,10 +70,9 @@ function Service() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">Мобильные приложения</h1>
+                <h1 className="service__text">{t("services.mobileApp")}</h1>
                 <p className="p service__text p__color">
-                  В планах разрабатка, обеспечение технической поддержки и
-                  развитие мобильных приложений.
+                  {t("services.mobileAppInfo")}
                 </p>
               </div>
             </div>
@@ -98,10 +99,9 @@ function Service() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">Поддержка</h1>
+                <h1 className="service__text">{t("services.support")}</h1>
                 <p className="p service__text p__color">
-                  Доработка функционала, улучшение производительности и
-                  адаптация под мобильные приложения.
+                  {t("services.supportInfo")}
                 </p>
               </div>
             </div>
