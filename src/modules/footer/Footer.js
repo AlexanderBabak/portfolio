@@ -27,7 +27,7 @@ function Footer() {
         <InstagramIcon />
       </a>
       <a
-        href="https://github.com/bbkshow"
+        href="https://github.com/AlexanderBabak"
         target="_blank"
         rel="noreferrer"
         style={{ cursor: "pointer", marginRight: 10 }}

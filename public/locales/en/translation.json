@@ -10,29 +10,24 @@
   "home": {
     "welcome": "WELCOME TO MY WORLD!",
     "name": "Alexander Babak",
-    "develop": "JS/React Developer"
+    "develop": "Mobile & Web developer"
   },
 
   "about": {
     "tittle": "About",
-    "text1": "In 2008 I wrote my first Hello World! I was the head of the press service of the FC 'Sheriff Tiraspol' (the same one that beat in 2021 'Real Madrid' at the Santiago Bernabeu).  I was also responsible for the work of the club website. There I first tried myself as a developer and content manager. In 2018, when the need for IT specialists began to grow, and training became very high, I had the idea to become a front-end developer. The decision was spontaneous. I was 31 at the time and had been a journalist for 12 years. Television, radio, writing press. You can, in my profession I experience everything. And I took on a new challenge.",
-    "text2": "After reading stories about how 30-year-olds become programmers, I realized that I could do it too. As a result, over the course of several years, combining my studies with my main job, I passed:",
-    "text2_p1": "- courses of the school SkillUp Kyiv ",
-    "text2_p2": "'HTML/CSS Basics'",
-    "text2_p3": "and ",
-    "text2_p4": "'JavaScript/React'",
-    "text2_p5": "- course ",
-    "text2_p6": "'Landing from 0 to 1'",
-    "text2_p7": "- course ",
-    "text2_p8": "'Redux for state management'",
-    "text2_p9": "- practice and 2 projects at ",
-    "text2_p10": "DEX iT company",
-    "text3": "Now I already have several completed projects and experience of working in a team. Web development has evolved from a hobby into something more. I think it's still ahead. There is only one conclusion - if you want to become a programmer, you will become one. Whether it is difficult, everyone decides for himself."
+    "text1": "I have more then 3 years of experience in UI development, of which 2 years is development on React and React Native. For the last 1,5 years I have been working in an international team of developers using the Agile methodology. Before worked for a football team for a long time and learned to quickly build good relationships with team-mates. I can say that I am a team player. I love sports, I run marathons, I have twice completed the Ironman distance (swimming, cycling, running).",
+    "text2": "Skills:",
+    "text2_p1": "React Native • React.js • JavaScript • Typescript • Flutter • Node.js • HTML • CSS • Redux Toolkit • MobX • REST API • Git",
+    "text3": "Courses:",
+    "text3_p1": "- Udemy 'Flutter & Dart' - 2023",
+    "text3_p2": "- Lasting Dynamics Academy (Spain) 'React Native' - 2022",
+    "text3_p3": "- SkillUp IT school (Ukraine) 'JavaScript/React.js' - 2021",
+    "text3_p4": "- SkillUp IT school (Ukraine) 'HTML/CSS Advanced' - 2020"
   },
 
   "buttons": {
     "cv": "Download CV",
-    "contact": "Contact"
+    "contact": "LinkedIn"
   },
 
   "portfolio": {

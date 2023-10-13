@@ -23,64 +23,31 @@ function About() {
             <h1 className="about__heading">{t("about.tittle")}</h1>
             <div className="about__meta">
               <p className="about__text p__color">{t("about.text1")}</p>
-              <p className="about__text p__color">{t("about.text2")}</p>
-              <p className="about__text p__color">
-                {t("about.text2_p1")}
-                <a
-                  href="https://skillup.ua/lp/uiux-online/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {t("about.text2_p2")}
-                </a>{" "}
-                {t("about.text2_p3")}
-                <a
-                  href="https://skillup.ua/lp/frontend-online/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {t("about.text2_p4")}
-                </a>{" "}
-                <br />
-                {t("about.text2_p5")}
-                <a
-                  href="https://from0to1.com.ua/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {t("about.text2_p6")}
-                </a>{" "}
-                <br />
-                {t("about.text2_p7")}
-                <a
-                  href="https://stepik.org/course/113714/promo"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {t("about.text2_p8")}
-                </a>{" "}
-                <br />
-                {t("about.text2_p9")}
-                <a href="https://dex-it.ru/" target="_blank" rel="noreferrer">
-                  {t("about.text2_p10")}
-                </a>
-                .
-              </p>
-              <p className="about__text p__color">{t("about.text3")}</p>
+              <p className="about__text p__color"><strong style={{color: '#fff'}}>{t("about.text2")}</strong></p>
+              <p className="about__text p__color">{t("about.text2_p1")}</p>
+              <p className="about__text p__color"><strong style={{color: '#fff'}}>{t("about.text3")}</strong></p>
+              <p className="about__text p__color">{t("about.text3_p1")}</p>
+              <p className="about__text p__color">{t("about.text3_p2")}</p>
+              <p className="about__text p__color">{t("about.text3_p3")}</p>
+              <p className="about__text p__color">{t("about.text3_p4")}</p>
               <div className="about__button d__flex align__items__center">
                 <a
                   className="button button--flex"
                   download=""
                   target="_blank"
                   rel="noreferrer"
-                  href="https://drive.google.com/file/d/1358Wxj-RUv8GAkhDMGa2_Wc0KVRUIQBY/view"
+                  href="https://drive.google.com/file/d/1aV7XLYjNp4cDSawu9l_5RuYU1VqRklpY/view"
                 >
                   <button className="about btn pointer">
                     {t("buttons.cv")}
                   </button>
                 </a>
 
-                <a href="#contact">
+                <a className="button button--flex"
+                   download=""
+                   target="_blank"
+                   rel="noreferrer"
+                   href="https://www.linkedin.com/in/alexander-babak-359131246">
                   <button className="about btn pointer">
                     {t("buttons.contact")}
                   </button>
